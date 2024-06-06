@@ -3,9 +3,9 @@
 Desenvolvi um projeto como parte de meu curso de Análise e Desenvolvimento de Sistemas na Universidade Tecnológica Federal do Paraná, que consiste em uma ferramenta web para a conversão e verificação de números entre sistemas binário, octal, decimal e hexadecimal. A aplicação facilita o entendimento de como diferentes sistemas numéricos interagem e fornece uma interface prática para manipulação de dados numéricos.
 
 ## 📦 Tecnologias Utilizadas
-HTML
-CSS
-JavaScript
+* HTML
+* CSS
+* JavaScript
 
 ### 📋 Características
 * Verificação de Sistema Numérico: A ferramenta verifica se o valor inserido corresponde ao sistema numérico indicado.

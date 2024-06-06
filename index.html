@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Bases Numéricas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Trabalho sobre Conversão de Bases Numéricas</h1>
+        <h3>Universidade Tecnológica Federal do Paraná</h3>
+        <h3>Aluno: Gabriel Vitor Siqueira <br> RA: 2201631</h3>
+
+        <form id="numberForm">
+            <div class="input-group">
+                <label for="binary">Binário</label>
+                <input type="text" id="binary" name="binary">
+            </div>
+            <div class="input-group">
+                <label for="octal">Octal</label>
+                <input type="text" id="octal" name="octal">
+            </div>
+            <div class="input-group">
+                <label for="decimal">Decimal</label>
+                <input type="text" id="decimal" name="decimal">
+            </div>
+            <div class="input-group">
+                <label for="hexadecimal">Hexadecimal</label>
+                <input type="text" id="hexadecimal" name="hexadecimal">
+            </div>
+            <button type="submit" class="button">Verificar</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
